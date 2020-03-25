@@ -1,7 +1,7 @@
 # Wytyczne do projektu z przedmiotu Bazy Danych 2020
 
 | Kierunek              | Przedmiot   | Semestr | Rok akademicki |
-| :--------------------: | :---------: | :-----: | :------------: |
+| :-------------------: | :---------: | :-----: | :------------: |
 | Informatyka Stosowana | Bazy danych | 4       | 2019/2020      |
 
 ## Informacje wstępne
@@ -60,7 +60,7 @@ Przykłady funkcjonalności w kontekście bazodanowym:
             FROM Discount d
             WHERE d.criteria='prev_year'
         )
-    WHERE c.production_year < YEAR(CURDATE());
+    WHERE c.production_year = YEAR(CURDATE()) - 1;
     ```
 
 ### Aplikacja
