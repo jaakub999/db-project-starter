@@ -10,18 +10,18 @@ Projekt z przedmiotu Bazy Danych realizowany jest w grupach dwuosobowych. Celem 
 ## Struktura projektu
 ```bash
 .
-├── /project/       # Katalog główny projektu
-│   ├── /resources/ # Pliki zasobów dołączonych do projektu, np. zrzuty ekranu, rysunki, itp.
-│   ├── /sql/       # Zapytania SQL
-│   ├── /src/       # Kod źródłowy aplikacji
-│   └── /README.md  # Opis projektu w formie pliku markdown
-├── /.gitignore     # Pliki i foldery pomijane przy commitowaniu do repozytorium
-└── /README.md      # Opis projektu: wytyczne
+├── /resources/    # Pliki zasobów w projekcie (SS, rysunki, schematy)
+│   └── /README.md # Opis projektu w formie pliku markdown
+├── /src/          # Katalog główny projektu
+│   ├── /app/      # Kod źródłowy aplikacji
+│   └── /sql/      # Zapytania SQL
+├── /.gitignore    # Pliki i foldery pomijane przy commitowaniu do repozytorium
+└── /README.md     # Opis projektu: wytyczne
 ```
 Projekt składa się z trzech części - projektu bazy danych, zaimplementowania funkcjonalności za pomocą języka SQL oraz wykorzystaniem napisanych zapytań w aplikacji.
 
 ### Projekt bazy danych
-Pierwszym etapem projektu jest stworzenie schematu bazy danych i jego wizualizacja przy pomocy diagramu ERD. Diagram należy przechowywać w repozytorium i zaprezentować w [szczegółowym opisie projektu](project/README.md)
+Pierwszym etapem projektu jest stworzenie schematu bazy danych i jego wizualizacja przy pomocy diagramu ERD. Diagram należy przechowywać w repozytorium i zaprezentować w postaci pliku markdown. [Przykładowy plik](resources/example.md) znajduje się w katalogu resources. Najlepszym rozwiązaniem będzie zastąpienie treści tego pliku opisem projektu.
 
 Schemat bazy powinien być przemyślany i zawierać niezbędne encje oraz łączące je relacje. Niedopuszczalne jest, aby diagram był niespójny - wszystkie encje powinny być połączone w _jeden spójny system_. Liczba encji na schemacie oraz szczegółowość ich opisu wpływa na ocenę końcową.
 
